@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_name='players',
+            model_name='player',
             name='team',
             field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='auction.team'),
         ),

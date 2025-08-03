@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+
+# Ignore virtual environment
+myenv/
+
+# VSCode settings (optional)
+.vscode/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Migration backups (optional but useful in dev)
+*/migrations/__pycache__/
+*/migrations/*.pyc

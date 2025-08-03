@@ -21,8 +21,5 @@ class Migration(migrations.Migration):
                 ('year', models.IntegerField()),
                 ('team', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='players', to='auction.team')),
             ],
-        ),
-        migrations.DeleteModel(
-            name='players',
-        ),
+        )
     ]
