@@ -22,8 +22,8 @@ BPL is a Django-powered web application that allows users to create football tea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/bpl-auction-app.git
-cd bpl-auction-app
+git clone https://github.com/jitheshjr/bpl.git
+cd bpl
 ```
 2. Install Dependencies
 ```bash
